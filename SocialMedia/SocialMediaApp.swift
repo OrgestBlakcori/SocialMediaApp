@@ -12,6 +12,7 @@ import Firebase
 struct SocialMediaApp: App {
     init() {
         FirebaseApp.configure()
+        
     }
     var body: some Scene {
         WindowGroup {
